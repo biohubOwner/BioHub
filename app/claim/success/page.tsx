@@ -1,10 +1,10 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useState, Suspense } from 'react';
 import { useSearchParams, useRouter } from 'next/navigation';
 import Link from 'next/link';
 
-export default function ClaimSuccess() {
+function ClaimSuccessContent() {
   const searchParams = useSearchParams();
   const router = useRouter();
   const [username, setUsername] = useState('');
@@ -168,5 +168,13 @@ export default function ClaimSuccess() {
         </div>
       </div>
     </div>
+  );
+}
+
+export default function ClaimSuccess() {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <ClaimSuccessContent />
+    </Suspense>
   );
 }

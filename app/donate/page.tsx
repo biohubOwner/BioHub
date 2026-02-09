@@ -99,7 +99,7 @@ export default function DonatePage() {
               Thank You for Supporting Us!
             </h3>
             <p className="text-gray-400">
-              Whether you donate $5 or $500, every contribution helps us build something amazing together. You're not just supporting a platform—you're supporting a community.
+              Whether you donate $5 or $500, every contribution helps us build something amazing together. You&apos;re not just supporting a platform&mdash;you&apos;re supporting a community.
             </p>
           </div>
         </div>

@@ -414,7 +414,7 @@ export default function EditProfile() {
         {/* Welcome Screen */}
         <div className="glass p-6 space-y-4">
           <h2 className="text-xl font-semibold">🌟 Welcome Screen</h2>
-          <p className="text-sm text-gray-400">Show a "click to enter" screen before your profile (like guns.lol)</p>
+          <p className="text-sm text-gray-400">Show a &quot;click to enter&quot; screen before your profile (like guns.lol)</p>
           
           <div className="flex items-center space-x-3">
             <input
@@ -498,7 +498,7 @@ export default function EditProfile() {
             })}
             
             {socialLinks.length === 0 && (
-              <p className="text-center text-gray-500 py-8">No social links yet. Click "Add Link" to get started.</p>
+              <p className="text-center text-gray-500 py-8">No social links yet. Click &quot;Add Link&quot; to get started.</p>
             )}
           </div>
         </div>

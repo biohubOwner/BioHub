@@ -177,7 +177,7 @@ export default function PublicProfile() {
               </h1>
             ) : (
               <h1 className="text-3xl md:text-4xl font-bold gradient-text">
-                {displayName}'s Profile
+                {displayName}&apos;s Profile
               </h1>
             )}
             

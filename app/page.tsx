@@ -306,7 +306,7 @@ export default function Home() {
           <div className="pt-6 border-t border-gray-700">
             <div className="text-center text-sm text-gray-400">
               <p>💡 Your token was provided when you claimed your username</p>
-              <p className="mt-1">Lost your token? You'll need to claim a new username</p>
+              <p className="mt-1">Lost your token? You&apos;ll need to claim a new username</p>
             </div>
           </div>
         </div>

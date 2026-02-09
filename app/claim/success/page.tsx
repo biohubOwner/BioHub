@@ -86,7 +86,7 @@ export default function ClaimSuccess() {
                 Save Your Access Token Now!
               </h2>
               <p className="text-gray-300 text-sm mb-4">
-                This is your ONLY way to edit your profile. We don't have passwords or email recovery. 
+                This is your ONLY way to edit your profile. We don&apos;t have passwords or email recovery. 
                 If you lose this token, you lose access to your profile forever.
               </p>
               
@@ -119,7 +119,7 @@ export default function ClaimSuccess() {
             {copied ? '✓ Copied!' : '📋 Copy Link'}
           </button>
           <p className="text-xs text-gray-400">
-            Bookmark this link or save it somewhere safe. You'll need it to edit your profile.
+            Bookmark this link or save it somewhere safe. You&apos;ll need it to edit your profile.
           </p>
         </div>
 
@@ -147,7 +147,7 @@ export default function ClaimSuccess() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
               </svg>
               <span className="text-sm font-medium">
-                You haven't downloaded your token yet. Please save it before continuing!
+                You haven&apos;t downloaded your token yet. Please save it before continuing!
               </span>
             </div>
           </div>
@@ -164,7 +164,7 @@ export default function ClaimSuccess() {
 
         {/* Storage info */}
         <div className="text-center text-sm text-gray-500">
-          <p>Token is also saved in your browser's local storage as a backup</p>
+          <p>Token is also saved in your browser&apos;s local storage as a backup</p>
         </div>
       </div>
     </div>

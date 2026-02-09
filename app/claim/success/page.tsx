@@ -147,7 +147,7 @@ export default function ClaimSuccess() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
               </svg>
               <span className="text-sm font-medium">
-                You haven&apos;t downloaded your token yet. Please save it before continuing!
+                You haven't downloaded your token yet. Please save it before continuing!
               </span>
             </div>
           </div>
@@ -159,12 +159,12 @@ export default function ClaimSuccess() {
           disabled={!downloaded}
           className="w-full py-4 px-6 bg-gradient-to-r from-purple-600 to-blue-600 text-white font-bold text-lg rounded-lg hover:from-purple-700 hover:to-blue-700 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2 focus:ring-offset-gray-900 disabled:opacity-50 disabled:cursor-not-allowed transition-all transform hover:scale-105 glow-purple"
         >
-          {downloaded ? &apos;✨ Start Editing Your Profile&apos; : &apos;🔒 Download Token First&apos;}
+          {downloaded ? "✨ Start Editing Your Profile" : "🔒 Download Token First"}
         </button>
 
         {/* Storage info */}
         <div className="text-center text-sm text-gray-500">
-          <p>Token is also saved in your browser&apos;s local storage as a backup</p>
+          <p>Token is also saved in your browser's local storage as a backup</p>
         </div>
       </div>
     </div>
